@@ -1,0 +1,12 @@
+// When you enter a new Terminal Tab
+cd workspace
+source venv/bin/activate
+source ~/.bashrc && cd .
+
+
+Connecting to a git repo
+git init
+git add -A .
+git commit -m "first commit"
+git remote add origin https://github.com/cshih7/workspace.git
+git push -u origin master
