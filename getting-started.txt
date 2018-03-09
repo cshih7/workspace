@@ -3,8 +3,25 @@ cd workspace
 source venv/bin/activate
 source ~/.bashrc && cd .
 
+then can do python safewayfive.py
 
-Connecting to a git repo
+Comment out: ⌘ /
+Watch out for "list" vs. str with [] or without []
+
+
+// To debug:
+import code
+code.interact(local = locals()) 
+
+#you will arrive at a breakpoint in your code
+#see where you are in your code, you can interact with all the local variables you have (including testing the next lines of your code that follow
+#sometimes you'll need to import packages if you're inside of a function that hasn't been imported yet
+
+ctrl+d to move to next break point
+exit()
+
+
+//Connecting to a (new) git repo
 git init
 git add -A .
 git commit -m "first commit"
